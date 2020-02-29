@@ -13,7 +13,7 @@ it('15 should return Fizz', () => {
 })
 
 it('10 should return Buzz', () => {
-  expect(fizzbuzz(10)).toBe('Buzz')
+  expect(fizzbuzz(10)).toBe('Buzzzzzzzzz')
 })
 
 
