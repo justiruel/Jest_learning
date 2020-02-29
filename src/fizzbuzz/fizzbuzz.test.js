@@ -12,10 +12,6 @@ it('15 should return Fizz', () => {
   expect(fizzbuzz(15)).toBe('FizzBuzz')
 })
 
-it('10 should return Buzz', () => {
-  expect(fizzbuzz(10)).toBe('Buzzzzzzzzz')
-})
-
 
 it('7 should return 7', () => {
   expect(fizzbuzz(7)).toBe('7')
