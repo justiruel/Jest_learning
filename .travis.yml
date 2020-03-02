@@ -30,4 +30,4 @@ after_success:
     - sshpass -e ssh $DEPLOY_USER@$DEPLOY_HOST $DEPLOY_PATH/deploy.sh
     ##- sshpass -e ssh localadmin@103.106.81.48 /home/localadmin/jest-learn/deploy.sh
 
-    aloha
+    aloha hoy
