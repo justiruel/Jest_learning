@@ -9,6 +9,11 @@ install:
 script:
     - yarn test
 
+addons:
+  apt:
+    packages:
+    - sshpass
+
 #deploy:
     # provider: pages
     #skip-cleanup: true
